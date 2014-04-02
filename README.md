@@ -3,6 +3,14 @@ SimpleWebStats
 
 A  simple owin middleware to store client information.
 
+How to install?
+==============
+
+You can download the source and compile or install from NuGet.
+```
+Install-Package SimpleWebStats.Owin 
+```
+
 Features
 ==============
 
