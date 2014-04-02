@@ -3,7 +3,7 @@ SimpleWebStats
 
 A  simple owin middleware to store client information.
 
-Features?
+Features
 ==============
 
 I recommend this if your application need information about client requests such as:
