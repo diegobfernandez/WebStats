@@ -4,7 +4,7 @@
     <authors>Diego B. Fernandez</authors>
     <id>WebStats.Owin.Katana</id>
     <title>WebStats.Owin.Katana</title>
-	<projectUrl>https://github.com/diegobfernandez/SimpleWebStats</projectUrl>
+	<projectUrl>https://github.com/diegobfernandez/WebStats</projectUrl>
 	<licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
