@@ -1,9 +1,17 @@
-SimpleWebStats
+WebStats
 ==============
 
 A  simple owin middleware to store client information.
 
-Features?
+How to install?
+==============
+
+You can download the source and compile or install from NuGet.
+```
+Install-Package WebStats.Owin.Katana
+```
+
+Features
 ==============
 
 I recommend this if your application need information about client requests such as:
