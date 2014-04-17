@@ -1,4 +1,4 @@
-OwinWebStats
+WebStats
 ==============
 
 A  simple owin middleware to store client information.
@@ -8,7 +8,7 @@ How to install?
 
 You can download the source and compile or install from NuGet.
 ```
-Install-Package OwinWebStats.Owin 
+Install-Package WebStats.Owin.Katana
 ```
 
 Features
