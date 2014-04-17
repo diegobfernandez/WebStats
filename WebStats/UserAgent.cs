@@ -2,25 +2,23 @@
 using System.Linq;
 using System.Text;
 
-namespace SimpleWebStats.Core
+namespace WebStats
 {
-    public class OS
+    public class UserAgent
     {
         public string Family { get; set; }
         public string Major { get; set; }
         public string Minor { get; set; }
         public string Patch { get; set; }
-        public string PatchMinor { get; set; }
 
-        public OS() { }
+        public UserAgent() { }
 
-        public OS(string family, string major, string minor, string patch, string patchMinor)
+        public UserAgent(string family, string major, string minor, string patch)
         {
             Family = family;
             Major = major;
             Minor = minor;
             Patch = patch;
-            PatchMinor = patchMinor;
         }
 
         public override string ToString()
@@ -44,8 +42,7 @@ namespace SimpleWebStats.Core
             {
                 Major,
                 Minor,
-                Patch,
-                PatchMinor
+                Patch
             }
             .Where(x => !String.IsNullOrEmpty(x)));
         }

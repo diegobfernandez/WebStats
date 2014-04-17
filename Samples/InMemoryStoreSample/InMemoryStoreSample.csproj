@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SimpleWebStats.InMemoryStoreSample</RootNamespace>
-    <AssemblyName>SimpleWebStats.InMemoryStoreSample</AssemblyName>
+    <RootNamespace>WebStats.InMemoryStoreSample</RootNamespace>
+    <AssemblyName>WebStats.InMemoryStoreSample</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
@@ -74,13 +74,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\SimpleWebStats.Core.csproj">
+    <ProjectReference Include="..\..\WebStats\WebStats.csproj">
       <Project>{22870f8e-5b7d-4128-b4db-f64d3b3f9795}</Project>
-      <Name>SimpleWebStats.Core</Name>
+      <Name>WebStats</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Owin\SimpleWebStats.Owin.csproj">
+    <ProjectReference Include="..\..\WebStats.Owin.Katana\WebStats.Owin.Katana.csproj">
+      <Project>{5f059ff8-97ec-46ef-8b15-61610e5d38fa}</Project>
+      <Name>WebStats.Owin.Katana</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WebStats.Owin\WebStats.Owin.csproj">
       <Project>{0cd0da2c-b5f1-4456-b433-931a08efe265}</Project>
-      <Name>SimpleWebStats.Owin</Name>
+      <Name>WebStats.Owin</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

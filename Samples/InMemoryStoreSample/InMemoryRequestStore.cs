@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using SimpleWebStats.Core;
 
-namespace SimpleWebStats.InMemoryStoreSample
+namespace WebStats.InMemoryStoreSample
 {
 	public class InMemoryRequestStore : IRequestStore
 	{

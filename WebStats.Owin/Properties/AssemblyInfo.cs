@@ -1,11 +1,11 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("SimpleWebStats.Owin")]
-[assembly: AssemblyDescription("OWIN integration for SimpleWebStats")]
+[assembly: AssemblyTitle("WebStats.Owin")]
+[assembly: AssemblyDescription("OWIN integration for WebStats")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SimpleWebStats.Owin")]
+[assembly: AssemblyProduct("WebStats.Owin")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

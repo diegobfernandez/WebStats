@@ -1,4 +1,4 @@
-﻿namespace SimpleWebStats.Core
+﻿namespace WebStats
 {
     public class Device
     {

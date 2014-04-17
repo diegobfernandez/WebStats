@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SimpleWebStats.Core
+namespace WebStats
 {
     public class ClientInfo
     {

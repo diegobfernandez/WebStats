@@ -1,11 +1,11 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("SimpleWebStats.Core")]
-[assembly: AssemblyDescription("The core components for SimpleWebStats")]
+[assembly: AssemblyTitle("WebStats")]
+[assembly: AssemblyDescription("The core components for WebStats")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SimpleWebStats.Core")]
+[assembly: AssemblyProduct("WebStats")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -3,9 +3,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Owin.Hosting;
 using Owin;
-using SimpleWebStats.Owin;
+using WebStats.Owin.Katana;
 
-namespace SimpleWebStats.InMemoryStoreSample
+namespace WebStats.InMemoryStoreSample
 {
     class Program
     {
@@ -36,7 +36,7 @@ namespace SimpleWebStats.InMemoryStoreSample
         static void Configuration(IAppBuilder app)
         {
             var requestStore = new InMemoryRequestStore();
-            app.UseSimpleWebStats(requestStore);
+            app.UseWebStats(requestStore);
 
             app.Use((env, next) =>
             {
