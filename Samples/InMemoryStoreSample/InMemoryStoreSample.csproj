@@ -73,7 +73,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\WebStats.Owin.RequestStore.InMemory\WebStats.RequestStore.InMemory.csproj">
+    <ProjectReference Include="..\..\WebStats.RequestStore.InMemory\WebStats.RequestStore.InMemory.csproj">
       <Project>{671adac7-4cc0-44b7-b744-b011014e1435}</Project>
       <Name>WebStats.RequestStore.InMemory</Name>
     </ProjectReference>
