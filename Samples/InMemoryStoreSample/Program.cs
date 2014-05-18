@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.Owin.Hosting;
 using Owin;
 using WebStats.Owin.Katana;
+using WebStats.RequestStore.InMemory;
 
 namespace WebStats.InMemoryStoreSample
 {

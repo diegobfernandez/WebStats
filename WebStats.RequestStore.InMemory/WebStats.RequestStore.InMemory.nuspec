@@ -1,0 +1,13 @@
+﻿<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>$version$</version>
+    <authors>Diego B. Fernandez</authors>
+    <id>WebStats.RequestStore.InMemory</id>
+    <title>WebStats.RequestStore.InMemory</title>
+	<projectUrl>https://github.com/diegobfernandez/WebStats</projectUrl>
+	<licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <summary>$description$</summary>
+  </metadata>
+</package>

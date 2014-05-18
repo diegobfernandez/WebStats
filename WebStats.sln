@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStats", "WebStats\WebStats.csproj", "{22870F8E-5B7D-4128-B4DB-F64D3B3F9795}"
 EndProject
@@ -19,6 +19,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{CC524E37-273A-42E7-A470-E4068A378B69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStats.Owin.Katana", "WebStats.Owin.Katana\WebStats.Owin.Katana.csproj", "{5F059FF8-97EC-46EF-8B15-61610E5D38FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStats.RequestStore.InMemory", "WebStats.RequestStore.InMemory\WebStats.RequestStore.InMemory.csproj", "{671ADAC7-4CC0-44B7-B744-B011014E1435}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 		{5F059FF8-97EC-46EF-8B15-61610E5D38FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F059FF8-97EC-46EF-8B15-61610E5D38FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F059FF8-97EC-46EF-8B15-61610E5D38FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671ADAC7-4CC0-44B7-B744-B011014E1435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671ADAC7-4CC0-44B7-B744-B011014E1435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671ADAC7-4CC0-44B7-B744-B011014E1435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671ADAC7-4CC0-44B7-B744-B011014E1435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
